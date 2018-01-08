@@ -1,19 +1,18 @@
 
 
-
 function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
-    var e = document.forms["myForm"]["pwd"].value;
-    var m = document.forms["myForm"]["msg"].value;
-    if (x == "") {
+    var n = document.forms["myForm"]["fname"].value;
+    var em = document.forms["myForm"]["pwd"].value;
+    var ms = document.forms["myForm"]["msg"].value;
+    if (n == "") {
         alert("Name must be filled out");
         return false;
     }
-    else if (e == "") {
+    else if (em == "") {
     	alert("Email must be filled out");
     	return false;
     }
-    else if(m == "") {
+    else if(ms == "") {
     	alert("Please leave me a message ... ");
     	return false;
     }
